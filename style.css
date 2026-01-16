@@ -1,0 +1,338 @@
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200px;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar{
+    top: 0;
+    right: 0;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c5705d;
+    padding: 10px 5%;
+}
+.title{
+    cursor: pointer; 
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.navbar ul a{
+    color: black;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+.navbar ul a:hover{
+    color: #e0dbd8;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-icon i{
+    margin-right: 20px;
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+}
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color: #e0dbd8;
+}
+#menu-icon{
+    font-size: 30px;
+    cursor: pointer;
+}
+#menu-icon:hover{
+    transform: scale(1.1);
+    color: #d0b8a8;
+}
+.dropdown1{
+    display: inline-block;
+}
+.dropdown1 a{
+    display: block;
+    padding: 10px 15px;
+}
+.dropdown1 .content1{
+    position: absolute;
+    background-color: #dfd3c3;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px #c5705d;
+    display:none;
+}
+.dropdown1:hover .content1{
+    display: block;
+    border-radius: 5px;
+}
+.dropdown1 .content1 a:hover{
+    background-color: #c5705d;
+    color: #e0dbd8;
+}
+body{
+    background-color: #f8ede3;
+}
+.banner-box{
+    margin-top: 15px;
+    display:flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+}
+.banner-box img{
+    box-shadow: 4px 4px 5px #c5705d;
+    width:200px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid #c5705d;
+    transition: 0.3s ease;
+}
+.banner-box img:hover{
+    width: 500px;
+    height: 400px;
+    cursor: pointer;
+}
+.down-arrow{
+   margin-left: 85%;
+   margin-top: 20px;
+    top: 65%;
+    right: 11%;
+}
+.down i{
+    font-size: 30px;
+    color: #c5705d;
+    border: 2px solid #c5705d;
+    border-radius: 50px;
+    padding: 12px 12px;
+}
+.down i:hover{
+    background-color: #c5705d;
+    color: #e0dbd8;
+    transition: all .42s ease;
+}
+.center-text h3{
+    color: #111;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.center-text span{
+    color: #c5705d;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px,auto));
+    gap: 2rem;
+    margin:70px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.row{
+    position: relative;
+    transition: all .42s;
+}
+.row img{
+    width:100%;
+    height: auto;
+    transition: all .42s ;
+    border-radius: 20px;
+}
+.row img:hover{
+    transform: scale(0.94);
+    cursor: pointer;
+}
+.product-text h5{
+    position: absolute;
+    top:13px;
+    left: 13px;
+    color: #c5705d;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #dfd3c3;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+.heart-icon{
+    position:absolute;
+    right: 0;
+    font-size: 20px;
+}
+.heart-icon:hover{
+    color: #c5705d;
+}
+.rating{
+    color: #FF8C00;
+    font-size: 18px;
+}
+.price h4{
+    color: #000000;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.price p{
+    color: hsl(11, 47%, 40%);
+    font-size: 14px;
+    font-weight: 500;
+}
+.client-reviews{
+    background-color: #dfd3c3;
+}
+.reviews{
+    text-align: center;
+}
+.reviews h3{
+    color: #111;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.reviews img{
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    margin: 10px 0;
+}
+.reviews p{
+    color: #111;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+.reviews h4{
+    font-size: 15px;
+    color: #c5705d;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+}
+.up-center-text h2{
+    text-align: center;
+    color: #111;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cart img{
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+.update-cart{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,350px));
+    gap: 1.5rem;
+    margin-left: 160px;
+}
+.cart h5{
+    color: #636872;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.cart h4{
+    color: #111;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cart p{
+    color: #707070;
+    font-size: 15px;
+    max-width: 300px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+.cart h6{
+    color: #151515;
+    font-size: 14px;
+    font-weight: 500;
+}
+.contact{
+    background-color: #dfd3c3;
+    padding: 50px;
+    margin-top: 30px;
+}
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px,auto));
+    gap: 3rem;
+}
+.contact-info h3{
+    color: #c5705d;
+    margin-bottom: 10px;
+    font-size: 1500;
+    font-weight: bolder;
+    
+}
+.contact-info h4{
+    color: #212529;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.contact-info p{
+    color: #565656;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all .42s;
+}
+.contact-info p:hover{
+    color: #df4320;
+}
+.social-icon i{
+    color: #565656;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: all .42s;
+}
+.social-icon i:hover{
+    transform: scale(1.3);
+}
+.end-text{
+    background-color: #edfff1;
+    text-align: center;
+    padding: 20px;
+}
+.end-text p{
+    color: #111;
+    text-transform: capitalize;
+}
+.pagination{
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+.pagination a{
+    color: #c5705d;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pagination a:hover{
+    color: #111;
+    transform: scale(1.2);
+}

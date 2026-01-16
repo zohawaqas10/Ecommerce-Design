@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>E-commerce Site</title>
+    
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h3 class="title">PrimePicks.</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <div class="dropdown1">
+                    <li><a href="#trending">Shop <sub><i class='bx bx-chevron-down'></i></sub></a>
+                        <div class="content1">
+                            <a href="#">Clothing</a>
+                            <a href="#">Shoes</a>
+                            <a href="#">Fragrances</a>
+                            <a href="#">Jewelry</a>
+                        </div>
+                    </li>
+                </div>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#news">Blog</a></li>
+                <li><a href="#contact">About Us</a></li>
+            </ul>
+            <div class="nav-icon">
+                <a href="#"><i class='bx bx-search'></i></a>
+                <a href="#"><i class='bx bx-user'></i></a>
+                <a href="#"><i class='bx bx-cart'></i></a>
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        </div>  
+    </header>
+    <section class="main-home">
+        <div class="banner-box">
+            <img src="images/banner3.png" alt="shoes" >
+            <img src="images/banner2.jpeg" alt="furniture" >
+            <img src="images/banner1.png" alt="clothing" class="main-banner" >
+            <img src="images/banner4.png" alt="perfume" >
+            <img src="images/banner5.png" alt="makeup" >
+        </div>
+        <div class="down-arrow">
+            <a href="#trending" class="down"><i class='bx bx-down-arrow-alt'></i></a>
+        </div>
+
+    </section>
+    <section class="trending-products" id="trending" >
+        <div class="center-text">
+            <br><h3>Our Trending <span>Products</span></h3>
+        </div>
+        <div class="products" >
+            <div class="row">
+                <img src="images/denimjacket.png" alt="denim">
+                <div class="product-text">
+                    <h5>Sale</h5>
+                </div>
+                <div class="heart-icon">
+                    <i class='bx bx-heart' ></i>
+                </div>
+                <div class="price">
+                    <h4>Blue Denim Jacket</h4>
+                    <p>PKR 3000-3200</p>
+                </div>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+               
+            </div>
+
+            <div class="row">
+                <img src="images/jeans.png" alt="jeans">
+                <div class="product-text">
+                    <h5>Sale</h5>
+                </div>
+                <div class="heart-icon">
+                    <i class='bx bx-heart' ></i>
+                </div>
+                <div class="price">
+                    <h4>Blue Jeans for Men</h4>
+                    <p>PKR 2500-2800</p>
+                </div>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                    <i class='bx bx-star'></i>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <img src="images/printed-tshirts.png" alt="tshirts">
+                <div class="product-text">
+                    <h5>New</h5>
+                </div>
+                <div class="heart-icon">
+                    <i class='bx bx-heart' ></i>
+                </div>
+                <div class="price">
+                    <h4>Printed T Shirts</h4>
+                    <p>PKR 1200-1500</p>
+                </div>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <img src="images/savage-men-perfume.png" alt="perfume">
+                <div class="product-text">
+                    <h5>Sale</h5>
+                </div>
+                <div class="heart-icon">
+                    <i class='bx bx-heart' ></i>
+                </div>
+                <div class="price">
+                    <h4>Savage Perfume for Men</h4>
+                    <p>PKR 4000</p>
+                </div>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <img src="images/white-oud.png" alt="perfume">
+                <div class="product-text">
+                    <h5>New</h5>
+                </div>
+                <div class="heart-icon">
+                    <i class='bx bx-heart' ></i>
+                </div>
+                <div class="price">
+                    <h4>White Oud Fragrance</h4>
+                    <p>PKR 1800</p>
+                </div>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+               
+            </div>
+
+            <div class="row">
+                <img src="images/white-sneakers.png" alt="sneakers">
+                <div class="product-text">
+                    <h5>Sale</h5>
+                </div>
+                <div class="heart-icon">
+                    <i class='bx bx-heart' ></i>
+                </div>
+                <div class="price">
+                    <h4>White Sneakers</h4>
+                    <p>PKR 1800-2000</p>
+                </div>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <img src="images/4pcgoldroseset.png" alt="Jewelry">
+                <div class="product-text">
+                    <h5>Sale</h5>
+                </div>
+                <div class="heart-icon">
+                    <i class='bx bx-heart' ></i>
+                </div>
+                <div class="price">
+                    <h4>4 pc Gold Rose Jewelry Set</h4>
+                    <p>PKR 1500</p>
+                </div>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                </div>
+               
+            </div>
+
+            <div class="row">
+                <img src="images/flormar.png" alt="foundation">
+                <div class="product-text">
+                    <h5>New</h5>
+                </div>
+                <div class="heart-icon">
+                    <i class='bx bx-heart' ></i>
+                </div>
+                <div class="price">
+                    <h4>Flormar Perfect Coverage Foundation</h4>
+                    <p>PKR 5800</p>
+                </div>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                </div>
+            </div>
+               
+                <div class="row">
+                    <img src="images/7-pc-dining.png" alt="foundation">
+                    <div class="product-text">
+                        <h5>New</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>7 Pc Dining Table</h4>
+                        <p>PKR 22000</p>
+                    </div>
+                    <div class="rating">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>   
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="images/wall-shelf.png" alt="foundation">
+                    <div class="product-text">
+                        <h5>New</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>Wooden Wall Shelf</h4>
+                        <p>PKR 950</p>
+                    </div>
+                    <div class="rating">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>   
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="images/zirconset.png" alt="foundation">
+                    <div class="product-text">
+                        <h5>Sale</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>Zircon Jewelry Set</h4>
+                        <p>PKR 1800</p>
+                    </div>
+                    <div class="rating">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>   
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="images/mascara.png" alt="foundation">
+                    <div class="product-text">
+                        <h5>Sale</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>Waterproof High Quality Mascara</h4>
+                        <p>PKR 2200</p>
+                    </div>
+                    <div class="rating">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>   
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="pages">
+        <div class="pagination">
+            <a href="#"><i class='bx bxs-left-arrow'></i></a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#"><i class='bx bxs-right-arrow' ></i></a>
+        </div>
+    </section>
+    <section class="client-reviews" id="reviews">
+        <div class="reviews">
+            <h3>Client Reviews</h3>
+            <img src="images/male.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, assumenda?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam.</p>
+            <h4>Person 1</h4>
+            <img src="images/female.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, assumenda?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam.</p>
+            <h4>Person 2</h4>
+        </div>
+    </section>
+    <section class="update-news" id="news">
+        <div class="up-center-text">
+            <h2>New Updates</h2>
+        </div>
+
+        <div class="update-cart">
+            <div class="cart">
+                <img src="images/news1.png" alt="">
+                <h5>9 Sep 2024</h5>
+                <h4>Let's bring up sale this winters</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestias commodi, odit qui vitae pariatur? Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <h6>Continue Reading...</h6>
+            </div>
+            <div class="cart">
+                <img src="images/news2.png" alt="">
+                <h5>20 Aug 2024</h5>
+                <h4>Let's bring up sale this winters</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestias commodi, odit qui vitae pariatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorem ut recusandae!</p>
+                <h6>Continue Reading...</h6>
+            </div>
+            <div class="cart">
+                <img src="images/news3.png" alt="">
+                <h5>26 July 2024</h5>
+                <h4>Let's bring up sale this winters</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestias commodi, odit qui vitae pariatur?</p>
+                <h6>Continue Reading...</h6>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-info">
+            <div class="first-info">
+                <h3 class="title">PrimePicks.</h3>
+                <p>3245 Khayaban e Firdousi, <br> Johar Town, Lahore</p>
+                <p>+920000000000</p>
+                <p>abcdef@gmail.com</p>
+                <div class="social-icon">
+                    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+            </div>
+            <div class="second-info">
+                <h4>Support</h4>
+                <p>Contact Us</p>
+                <p>About Page</p>
+                <p>Shop and Returns</p>
+                <p>Privacy</p>
+            </div>
+            <div class="third-info">
+                <h4>Shop</h4>
+                <p>Men's Shopping</p>
+                <p>Women's Shopping</p>
+                <p>Furniture</p>
+                <p>Discount</p>
+            </div>
+            <div class="fourth-info">
+                <h4>Company</h4>
+                <p>About</p>
+                <p>Blog</p>
+                <p>Affiliate</p>
+                <p>Login</p>
+            </div>
+            <div class="five">
+                <h4>Subscribe</h4>
+                <p>Receive updated deals, discounts sent straight in your inbox</p>
+                <p>Stay Tuned for more</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="end-text">
+        <p>Copyright <i class='bx bx-copyright'></i> All Rights Reserved. Designed By Zoha Waqas</p>
+    </div>
+   
+</body>
+</html>
